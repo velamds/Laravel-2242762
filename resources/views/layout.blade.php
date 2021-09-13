@@ -10,12 +10,12 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
 
-    
+
 
     <!-- Bootstrap core CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
- 
+
 
 
     <style>
@@ -34,11 +34,11 @@
       }
     </style>
 
-    
+
 
   </head>
   <body>
-    
+
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
   <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Company name</a>
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,7 +66,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">
               <span data-feather="home"></span>
-              Inicio
+
             </a>
           </li>
           <li class="nav-item">
@@ -84,7 +84,7 @@
           </li>
         </ul>
 
-       
+
       </div>
     </nav>
 
