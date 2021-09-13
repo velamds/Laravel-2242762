@@ -25,9 +25,9 @@ Route::get('/invoice/{id}', function($id){
     return dd($invoice->products);
 });
 
-Route::get('/invoice_detail/{inv}/{prod}', function($inv,$prod){
-    $detail = App\Models\InvoiceDetail::where('invoice_id','=',$inv)
-                                        ->where('product_id','=',$prod)
-                                        ->first();
-    return dd($detail);
-});
+// Route::get('/invoice_detail/{inv}/{prod}', function($inv,$prod){
+//     $detail = App\Models\InvoiceDetail::where('invoice_id','=',$inv)
+//                                         ->where('product_id','=',$prod)
+//                                         ->first();
+//     return dd($detail);
+// });
