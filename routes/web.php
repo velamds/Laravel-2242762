@@ -15,6 +15,10 @@ Route::post('/product/save', [ProductController::class, 'save'])->name('product.
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/test',function(){
+    return 'testing git';
+});
+
 Route::get('/brands', [BrandController::class , "show"]);
 Route::get('/brand/delete/{id}', [BrandController::class, 'delete'])->name('brand.delete');
 Route::get('/brand/form/{id?}',[BrandController::class, 'form'])->name('brand.form');
